@@ -45,7 +45,7 @@ bot.on('ready', (message) => {
 
 		//message.channel.send(':video_game:Note : Event Akan Selalu Update Setiap Habis Maintenance . Dont Miss it and Keep Follow Us \nThank Youuuuu:grinning:')
 
-		const id = '432589912177508352';
+		const id = '488619421762453505';
 		const channel = bot.channels.get(id);
 		channel.send(embed1)
 		channel.send(embed2)
