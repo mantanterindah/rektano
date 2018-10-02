@@ -3,6 +3,10 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 
+bot.on('message', message => {
+	console.log(`${message.author.tag}: ${message.content} at ${message.createdTimestamp}`);
+	if (message.channel.bot) return;
+});
 
 bot.on('ready', (message) => {
 	setInterval(() => {
