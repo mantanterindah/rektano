@@ -1,0 +1,14 @@
+{
+  "name": "spoiler",
+  "version": "1.0.0",
+  "description": "tes spoiler",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "author": "tenuzholic",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.4.2"
+  }
+}
