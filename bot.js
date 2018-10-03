@@ -57,7 +57,7 @@ bot.on('ready', (message) => {
 		channel.send(':video_game:Note : **Event Akan Selalu Update Setiap Habis Maintenance . Dont Miss it and Keep Follow Us** \nThank Youuuuu:grinning:')
 
 		
-	}, 6000000)
+	}, 18000000)
 });
 
 process.on('unhandledRejection', error => {
