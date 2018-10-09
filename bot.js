@@ -12,9 +12,9 @@ bot.on('ready', (message) => {
 	setInterval(() => {
 
 		let embed1 = new Discord.RichEmbed()
-		.setTitle('**Himpunan Tani Midgard Quest**')
+		.setTitle('**Newbie Starter Kit**')
 		//.setImage()
-		.setURL('http://rektnarok.boards.net/thread/27/himpunan-tani-midgard-quest')
+		.setURL('http://rektnarok.boards.net/thread/31/newbie-starter-kit')
 		.setColor('#205ec1')
 		//.setThumbnail()
 		.setTimestamp();
@@ -36,9 +36,9 @@ bot.on('ready', (message) => {
 		//message.channel.send(embed2);
 
 		let embed3 = new Discord.RichEmbed()
-		.setTitle('**Event Selfie With Raja Kura2**')
+		.setTitle('**Secret Shop**')
 		//.setImage()
-		.setURL('http://rektnarok.boards.net/thread/26/event-selfie-kura-october-2018')
+		.setURL('http://rektnarok.boards.net/thread/30/rektnarok-pvp-support-secret-shop')
 		.setColor('#efc417')
 		//.setThumbnail()
 		.setTimestamp();
@@ -52,7 +52,7 @@ bot.on('ready', (message) => {
 		const id = '488619421762453505';
 		const channel = bot.channels.get(id);
 		channel.send(embed1)
-		channel.send(embed2)
+		//channel.send(embed2)
 		channel.send(embed3)
 		channel.send(':video_game:Note : **Event Akan Selalu Update Setiap Habis Maintenance . Dont Miss it and Keep Follow Us** \nThank Youuuuu:grinning:')
 
