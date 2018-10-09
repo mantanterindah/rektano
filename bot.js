@@ -24,9 +24,9 @@ bot.on('ready', (message) => {
 		//message.channel.send(embed1);
 
 		let embed2 = new Discord.RichEmbed()
-		.setTitle('**PVP Legendary Season 2**')
+		.setTitle('**Halloween Event**')
 		//.setImage()
-		.setURL('http://rektnarok.boards.net/thread/25/event-pvp-legendary-season-2')
+		.setURL('http://rektnarok.boards.net/thread/32/halloween-event-quest')
 		.setColor('#e00b35')
 		//.setThumbnail()
 		.setTimestamp();
@@ -52,7 +52,7 @@ bot.on('ready', (message) => {
 		const id = '488619421762453505';
 		const channel = bot.channels.get(id);
 		channel.send(embed1)
-		//channel.send(embed2)
+		channel.send(embed2)
 		channel.send(embed3)
 		channel.send(':video_game:Note : **Event Akan Selalu Update Setiap Habis Maintenance . Dont Miss it and Keep Follow Us** \nThank Youuuuu:grinning:')
 
