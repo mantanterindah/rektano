@@ -46,6 +46,19 @@ bot.on('ready', (message) => {
 		//.addField('', '')
 		//.addField('', '');
 		//message.channel.send(embed3);
+		
+		let embed4 = new Discord.RichEmbed()
+		.setTitle('**Halloween Selfie Contest**')
+		//.setImage()
+		.setURL('http://rektnarok.boards.net/thread/33/event-halloween-selfie')
+		.setColor('#efc417')
+		//.setThumbnail()
+		.setTimestamp();
+		//.addField('', '')
+		//.addField('', '')
+		//.addField('', '');
+		//message.channel.send(embed4);
+		
 
 		//message.channel.send(':video_game:Note : Event Akan Selalu Update Setiap Habis Maintenance . Dont Miss it and Keep Follow Us \nThank Youuuuu:grinning:')
 
@@ -54,6 +67,7 @@ bot.on('ready', (message) => {
 		channel.send(embed1)
 		channel.send(embed2)
 		channel.send(embed3)
+		channel.send(embed4)
 		channel.send(':video_game:Note : **Event Akan Selalu Update Setiap Habis Maintenance . Dont Miss it and Keep Follow Us** \nThank Youuuuu:grinning:')
 
 		
